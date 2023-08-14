@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 970px;
+    margin: 0 auto;
+    background-color: rgb(189, 202, 202);
+   
+}
+h1{
+    padding: 0 30px;
+}
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 2rem;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(24, 141, 180);
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  .red {
+    color: rgb(231, 231, 10);
+  }
+  .hidden {
+    display: none;
+  }

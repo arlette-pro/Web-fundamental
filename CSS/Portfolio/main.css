@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 960px;
+    /* height: 960px; */
+    margin: 0 auto;
+    border: 1px solid black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: white;
+    color: black
+}
+header h1{
+    font-weight: 700;
+}
+header p{
+    line-height: 2;
+    font-weight: 700;
+}
+.main{
+    background: linear-gradient(rgb(56, 28, 28), white);
+    border: 1px solid black;
+}
+.about{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.image{
+    width: 49%;
+    border: 4px solid white ;
+}
+.main .image img{
+    width: 100%;
+}
+
+h3{
+    /* background-color: grey; */
+    padding: 10px;
+    background: linear-gradient(rgb(82, 72, 72), rgb(236, 217, 217));
+    color: #fff;
+}
+.about-text{
+    background-color: #faeaea;
+}
+.about-text p{
+    padding: 10px;
+}
+.about-text a{
+    padding: 10px;
+    color: black;
+}
+/* ======================= lamode
+=================================================== */
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    min-height: 300px;
+    
+}
+.lamode{
+    width: 32%;
+    background-color: #faeaea;
+}
+.lamode img{
+    width: 100%;
+}
+.lamode h3{
+    background: linear-gradient(rgb(82, 72, 72), rgb(236, 217, 217));
+}
+.lamode p{
+    padding:0 10px;
+    height: 164px;
+}
+/* ========================= 
+Family contacts
+============================*/
+.family-contact{
+    width: 32%;
+    background-color: #faeaea;
+}
+.family-contact img{
+    width: 100%;
+}
+.family-contact p{
+    padding:0 10px;
+    height: 164px;
+   
+}
+/* =========================== 
+five eleven
+=============================== */
+.five-eleven{
+    width: 32%;
+    background-color: #faeaea;
+    
+}
+.five-eleven img{
+    width: 100%;
+}
+.five-eleven p{
+    padding:0 10px;
+}
+.technologies img{
+    width: 50px;
+    height: auto;
+    gap: 1em;
+    padding: 5px;
+}
+/* ==============================
+button
+=================================*/
+.btn{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+button{
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    padding: 8px;
+    color: #fff;
+}
+/* ============================
+footer
+==============================*/
+footer{
+    width: 100%;
+    border: 1px solid black;
+    background-color: #fff;
+    /* /* padding: 5px */
+    text-align: center;
+    line-height: 2;
+}
+footer img{
+    width: 20px;
+}

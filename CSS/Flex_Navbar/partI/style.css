@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.center-box{
+    width: 960px;
+    height: 250px;
+    background-color: rgb(5, 5, 88);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.center-item{
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    background-color:blanchedalmond;
+}

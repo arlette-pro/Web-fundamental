@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 750px;
+    margin: 0 auto;
+    /* height: 600px; */
+    background-color: aqua;
+    border: 1px solid black;
+}
+h3{
+    margin: 20px 60px ;
+}
+
+img{
+    height: 150px;
+    margin-left: 30px;
+    border: 2px solid black;
+}
+button{
+    padding: 6px;
+    border-radius: 5px;
+    margin:10px 30px;
+    background-color: green;
+    color: #fff;
+}

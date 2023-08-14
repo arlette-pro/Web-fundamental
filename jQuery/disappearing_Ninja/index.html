@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Disappearing Ninja</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3>JQuery - assignment 1</h3>
+      <img src="./images/adventure-cat.png" alt="adventure-cat" />
+      <img src="./images/aidorucat.png" alt="aidorucat-cat" />
+      <img src="./images/coder2.jpg" alt="coder2" />
+      <img src="./images/codercat.jpg" alt="codercat" />
+      <img src="./images/heisencat.png" alt="heisencat" />
+      <img src="./images/mario.png" alt="mario-cat" />
+      <img src="./images/oktobercat.png" alt="oktobercat" />
+      <img src="./images/adventure-cat.png" alt="adventure-cat" />
+      <button id="restore-btn">Restore</button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+       $(document).ready(function (){
+      $("img").click(function () {
+        $(this).hide();
+      });
+
+      $("#restore-btn").click(function () {
+        $("img").show();
+      })
+    });
+    </script>
+  </body>
+</html>

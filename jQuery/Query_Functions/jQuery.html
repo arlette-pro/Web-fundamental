@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>jQuery Function Examples</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>jQuery Function Examples</h1>
+      <div class="cont">
+        <div class="box" id="box1">
+          <h2>Click Function</h2>
+          <button id="btnClick">Click Me!</button>
+          <p id="clickText">Click the button to change this text.</p>
+        </div>
+
+        <div class="box" id="box2">
+          <h2>Hide, Show, Toggle Functions</h2>
+          <button id="btnHide">Hide</button>
+          <button id="btnShow">Show</button>
+          <button id="btnToggle">Toggle</button>
+          <p id="toggleText">
+            This paragraph can be hidden, shown, or toggled.
+          </p>
+        </div>
+
+        <div class="box" id="box3">
+          <h2>SlideDown, SlideUp, SlideToggle Functions</h2>
+          <button id="btnSlideDown">Slide Down</button>
+          <button id="btnSlideUp">Slide Up</button>
+          <button id="btnSlideToggle">Slide Toggle</button>
+          <div id="slideToggleContent" class="hidden">
+            <p>This content can be slid down, up, or toggled.</p>
+          </div>
+        </div>
+
+        <div class="box" id="box4">
+          <h2>FadeIn, FadeOut Functions</h2>
+          <button id="btnFadeIn">Fade In</button>
+          <button id="btnFadeOut">Fade Out</button>
+          <p id="fadeText" class="hidden">
+            Coding Dojo students 
+          </p>
+        </div>
+
+        <div class="box" id="box5">
+          <h2>AddClass Function</h2>
+          <button id="btnAddClass">Add Class</button>
+          <p id="addClassText">
+            Click the button to add a class to this paragraph.
+          </p>
+        </div>
+
+        <div class="box" id="box6">
+          <h2>Before, After, Append Functions</h2>
+          <button id="btnBefore">Before</button>
+          <button id="btnAfter">After</button>
+          <button id="btnAppend">Append</button>
+          <p id="appendText">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia animi nostrum.
+          </p>
+        </div>
+
+        <div class="box" id="box7">
+          <h2>HTML, Attr, Val, Text Functions</h2>
+          <button id="btnHtml">HTML</button>
+          <button id="btnAttr">Attribute</button>
+          <button id="btnVal">Value</button>
+          <button id="btnText">Text</button>
+          <p id="htmlText">
+            This paragraph can be modified using HTML, attribute, value, and
+            text functions.
+          </p>
+          <input type="text" id="textInput" value="Initial Value" />
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Click Function
+        $("#btnClick").click(function () {
+          $("#clickText").text("Button clicked!");
+        });
+
+        // Hide, Show, Toggle Functions
+        $("#btnHide").click(function () {
+          $("#toggleText").hide();
+        });
+
+        $("#btnShow").click(function () {
+          $("#toggleText").show();
+        });
+
+        $("#btnToggle").click(function () {
+          $("#toggleText").toggle();
+        });
+
+        // SlideDown, SlideUp, SlideToggle Functions
+        $("#btnSlideDown").click(function () {
+          $("#slideToggleContent").slideDown();
+        });
+
+        $("#btnSlideUp").click(function () {
+          $("#slideToggleContent").slideUp();
+        });
+
+        $("#btnSlideToggle").click(function () {
+          $("#slideToggleContent").slideToggle();
+        });
+
+        // FadeIn, FadeOut Functions
+        $("#btnFadeIn").click(function () {
+          $("#fadeText").fadeIn();
+        });
+
+        $("#btnFadeOut").click(function () {
+          $("#fadeText").fadeOut();
+        });
+
+        // AddClass Function
+        $("#btnAddClass").click(function () {
+          $("#addClassText").addClass("red");
+        });
+
+        // Before, After, Append Functions
+        $("#btnBefore").click(function () {
+          $("#appendText").before("<p>This is inserted before.</p>");
+        });
+
+        $("#btnAfter").click(function () {
+          $("#appendText").after("<p>This is inserted after.</p>");
+        });
+
+        $("#btnAppend").click(function () {
+          $("#appendText").append("<span> Appended text.</span>");
+        });
+
+        // HTML, Attr, Val, Text Functions
+        $("#btnHtml").click(function () {
+          $("#htmlText").html("<strong>Modified HTML content.</strong>");
+        });
+
+        $("#btnAttr").click(function () {
+          $("#htmlText").attr("class", "red");
+        });
+
+        $("#btnVal").click(function () {
+          var inputValue = $("#textInput").val();
+          $("#textInput").val(inputValue + " Modified");
+        });
+
+        $("#btnText").click(function () {
+          $("#htmlText").text("Modified text content.");
+        });
+      });
+    </script>
+  </body>
+</html>

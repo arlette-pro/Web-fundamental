@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 970px;
+    height: 800px;
+    background-color: rgb(32, 84, 133);
+    margin: 0 auto;
+    border: 1px solid black;
+}
+header img{
+    width: 40%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+header .text{
+    line-height: 1.8;
+}
+header .text a{
+    color: rgb(248, 232, 5);
+}
+header .text p{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+header .text-search{
+    width: 230px;
+    /* height: 100px; */
+    border: 1px solid black;
+    padding:  12px;
+    background-color: rgb(54, 48, 48);
+    border-radius: 5px;
+}
+header button{
+    color: #fff;
+    background: rgb(27, 27, 105);
+    padding: 2%;
+}
+header .search{
+    color: rgb(114, 138, 160);
+    background-color: #fff;
+    padding: 5px 60px;
+}
+/* ============== navlinks
+===============================*/
+.navlinks{
+    display: flex;
+    justify-content:space-between;
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 5px 8%;
+    border: 1px solid black;
+    background:rgb(83, 109, 194);
+    list-style: none;
+    margin-bottom: 10px;
+}
+.navlinks a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* ======= about text */
+.about-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+ */
+.about-text p h4{
+    width: 40%;
+}
+.about-links{
+    list-style: none;
+    color: #fff;
+    width: 30%;
+}
+.text-flow{
+    width: 65%;
+    color: #fff;
+}
+
+.overflow {
+    text-align: center;
+    color:rgb(172, 172, 83) ;
+    font-style: italic;
+    line-height: 1.5;
+}
+.overflow span{
+    color: #fff;
+}
+.about-links a{
+    color: #fff;
+    line-height: 1.5;
+}
+/* ================subcontent
+=============================== */
+.content{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 0 10%;
+    background-color: #fff;
+
+}
+.subcontent{
+    width: 40%;
+    border-top: 3px solid rgb(60, 156, 211);
+    margin: 9px;
+}
+.subcontent h4{
+    text-align: center;
+    margin: 5px 0;
+}
+.subcontent li{
+    list-style:square;
+}
+.subcontent a{
+    color: rgb(60, 156, 211);
+    text-align: justify;
+    line-height: 1.5;
+    text-decoration: none;
+
+}
+/* ===========footer
+========================= */
+footer{
+    padding:0 10%;
+}
+footer h6{
+    text-align: center;
+    color: rgb(60, 156, 211);
+}
+#text{
+    display: inline-block;
+    vertical-align:auto;
+    padding: 20px 5%;
+    margin: 0 auto;
+    color: rgb(60, 156, 211);
+    
+}

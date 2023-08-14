@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.container{
+    width: 970px;
+    min-height: 900px;
+    margin: 0 auto;
+    background-color: rgb(24, 22, 22);
+    color: #fff;
+    
+}
+*p{
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1b1919;
+}
+header img{
+    width: 100%;
+}
+.num p{
+    font-weight: 700;
+    padding: 20px;
+}
+.home{
+    width: 100%;
+    height: 350px;
+}
+.home img{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    height: 40px;
+    background: linear-gradient(rgb(41, 40, 40), #524f4f);
+}
+.container nav .links li::after{
+    content: "";
+    border: 1px solid #524f4f;
+    margin-left: 10px;
+}
+
+.links{
+    display: flex;
+    justify-items: flex-start;
+    gap: 1em;
+    padding: 10px 20px;
+    text-align: center;
+    border-right: 2px solid #524f4f;
+    width: 96%;
+}
+.links a{
+    text-decoration: none;
+    color: #8f8989;
+    font-weight: 800;
+}
+.links li{
+    list-style: none;
+    
+}
+.links i{
+    color: #bbb7b7;
+}
+
+
+
+/*================================================
+ Icons text
+ ==================================================*/
+
+
+.icons-text{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    min-height: 100px;
+    background-color: rgb(34, 32, 32);
+    
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    width: 30%;
+}
+.icons-info{
+    text-align: left;
+
+}
+.icons-img{
+    margin-right: 20px;
+}
+
+.icons h3{
+    color: rgb(216, 117, 25);
+}
+
+/*======================================================
+ About
+ ======================================================== */
+.about{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.about-text h2{
+    line-height: 2;
+}
+
+.btn button{
+    padding: 5px 10px;
+    background-color: rgb(216, 127, 25);
+    color: #fff;
+    font-weight: 400;
+    border-radius: 5px;
+    margin-top: 30px ;
+    border: 1px solid black;
+}
+
+/* ==============================================================
+footer
+=============================================================== */
+footer{
+    background-color: rgb(34, 32, 32);
+    border: 1px solid black;
+}
+footer .portfolio{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.portfolio-img{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.portfolio h3{
+    padding: 0 15px;
+}
+.portfolio h6 a{
+    color: orange;
+    font-style: italic;
+    text-decoration: none;
+}
+.info h4{
+    color: rgb(216, 117, 25);
+    padding: 10px 5px;
+}
+i{
+    color: orange;
+    padding: 3px 0;
+}
+
+.info{
+    width: 25%;
+    padding: 8px;
+}
+.info img{
+    width: 100%;
+}
+.info p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.end a{
+    display: flex;
+    justify-content: end;
+    padding-right: 30px;
+    color: gray;
+    margin-bottom: 0;
+    text-decoration: none;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Registration Form</title>
+</head>
+<body>
+    <form action="#">
+        <h3>My Registration Form</h3>
+        <div>
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first name">
+        </div> <br>
+        <div>
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name"  name="Last name">
+        </div> <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+        </div><br>
+        <div>
+            <label for="Password">Password</label>
+            <input type="Password" id="Password" name="Password">
+        </div><br>
+        <div>
+            <label for="pw_confirm">PW Confirm</label>
+            <input type="Password" id="pw_confirm" name="PW Confirm">
+        </div><br>
+        <div>
+            <label for="birthday">Birthday</label>
+            <input type="date" id="birthday" name="Birthday">
+        </div><br>
+        <div>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="other">Other</label> 
+        </div>
+        <p>A short description of about yourself:</p>
+        <textarea name="text" id="text" cols="30" rows="10"></textarea><br>
+        <div>
+            <label for="favorite_language">Favorite Language:</label>
+            <select id="favorite_language" name="Favorite Language">
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
+                <option value="Mern">Mern</option>
+            </select>
+        </div>
+        <br>
+        <div><input type="submit" value="Submit"></div>
+    </form>
+</body>
+</html>
